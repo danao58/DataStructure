@@ -53,7 +53,7 @@ public class ArrayQueue {//队列
     }
 
     //获取元素
-    public void getQueue(int n){//下标
+    public void getQueue(int n){//个数
 
         if (isEmpty()){
 
