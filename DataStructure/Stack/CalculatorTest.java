@@ -10,7 +10,7 @@ public class CalculatorTest {
 
     }
 
-    public static void calculator(String expression) {//使用栈做计数器
+    public static void calculator(String expression) {//使用栈做计算器
 
 
         Calculator calculator =new Calculator();
@@ -49,7 +49,7 @@ public class CalculatorTest {
 
                 if (operStack.isEmpty()){//操作符栈是否为空
 
-                    operStack.push(ch);//为空，加入堆中
+                    operStack.push(ch);//为空，加入运算符栈中
 
                 }else {
 
